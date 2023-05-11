@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Container, Form, Input } from "reactstrap";
 import styles from "./styles.module.scss";
 import Modal from "react-modal";
-import { useEffect, useState } from "react";
+import { FormEvent, useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import profileService from "../../../services/profileService";
 
